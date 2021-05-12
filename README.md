@@ -1,190 +1,276 @@
-# site-adriana
-
 <div id="app"></div>
-<link href="css/arquivo.css" rel="stylesheet">
-<p style="color: red;">Escritorio Advocacia Adriana AP. Castro Andadre Deperon</p>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
-</head>
-<body>
-<!--[if IE]>
-02.
-<object classid="clsid:25336920-03F9-11CF-8FD0-00AA00686F13" data="http://www.maujor.com/">
-03.
-<p>conteúdo alternativo para tecnologias que não suportam OBJECT</p>
-04.
-</object>
-05.
-<![endif]-->
-06.
-<!--[if !IE]> <-->
-07.
-<object type="text/html" data="http://www.maujor.com/">
-08.
-<p>conteúdo alternativo para tecnologias que não suportam OBJECT</p>
-09.
-</object>
-10.
-<!--> <![endif]-->
-<!--[if IE]>
-02.
-<object classid="clsid:25336920-03F9-11CF-8FD0-00AA00686F13" data="http://www.maujor.com/">
-03.
-<p>conteúdo alternativo para tecnologias que não suportam OBJECT</p>
-04.
-</object>
-05.
-<![endif]-->
-06.
-<!--[if !IE]> <-->
-07.
-<object type="text/html" data="http://www.maujor.com/">
-08.
-<p>conteúdo alternativo para tecnologias que não suportam OBJECT</p>
-09.
-</object>
-10.
-<!--> <![endif]-->
 
+ <html>
+ 	<head>
+ 		<meta charset="UTF-8">
+ 		<title>Título da página</title>
+ 	</head>
+ 	<body>
+ 		<h1>Título visível</h1>
+ 		<p>Meu parágrafo</p>
+     <style>
+	h1{color:red;border:1px solid #f5f5f5}
+	p{font-size:14px;font-style:italic}
+</style>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<title>OnePage HTML5 e CSS3</title>
-	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+     <title>Advogada Adriana AP. de Castro Andrade Deperon- CarlosHPS Blog</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="estilo.css" type="text/css">
+     <meta name="viewport" content="width=divice-width, initial-scale=1.0">
 </head>
 <body>
-	<section id="home" class="content">
-		<article class="box">
-      <img src="https://lh3.googleusercontent.com/proxy/g7wx7ini6-6EslRfHnv6BgC7BSstxqLLut8uOBvuGamOfMeDeQ-BiFeFcATOS3oZwiQDK6Z6JJrPCbvDUn5ef3tGuxrtdZrpdXbSbJXTAkYwfeJEYFQgfw" alt="some text" width=60 height=40>
-			<h2>Home</h2>
-			  <p>O que significa a profissão Direito?
-É a ciência que cuida da aplicação das normas jurídicas vigentes em um país, para organizar as relações entre indivíduos e grupos na sociedade. Zelar pela harmonia e pela correção das relações entre os cidadãos, as empresas e o poder público é a função do bacharel em Direito.
-			</p>
-		</article>
-	</section>
-	<section id="company" class="content">
-		<article class="box">
-			<h2>Empresa</h2>	 
-			<p>https://pt.wikipedia.org/wiki/Empresa
-        
-			</p>
-		</article>
-	</section>
-	<section id="service" class="content">
-		<article class="box">
-			<h2>Serviços</h2>	 
-			 <p>O advogado representa e fala em nome de seus clientes em diversas situações, sejam eles empresas, pessoas ou entidades.
-
-Seu objetivo é zelar pela manutenção e integridade de bens e direitos, preservando interesses individuais e coletivos, dentro dos princípios éticos que regem a profissão.
-
-Entre suas principais funções estão:
-
-Propor ou contestar ações;
-Solicitar providências junto ao magistrado ou ao Ministério Público;
-Avaliar provas documentais e orais;
-Realizar audiências trabalhistas, penais comuns e cíveis;
-Instruir seu cliente e atuar no tribunal do júri.
-Extrajudicialmente, pode mediar questões, contribuir na elaboração de projetos de lei, assessorar negociações internacionais e nacionais e, também, analisar, atualizar e implementar diferentes tipos de legislação.
-
-Embora o curso de Direito seja um dos mais buscados entre os universitários, o mercado de trabalho continua oferecendo boas oportunidades para os formados. Há uma grande variedade de áreas...  Mais
-		</article>
-	</section>
-	<section id="contact" class="content">
-		<article class="box">
-			<h2>Contato</h2>	 
-			<p><form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
- <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
- <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
- <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
- <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
- 
- <p> 
- Nome:<br /> 
- <input type="text" size="30" name="nome"> 
- </p>   
- 
- <p>
- E-mail:<br /> 
- <input type="text" size="30" name="replyto"> 
- </p>   
- 
- <p> 
- Comentários:<br /> 
- <input type="text" size="35" name="Comentarios"> 
- </p>   
- 
- <p> 
- <input type="submit" name="BTEnvia" value="Enviar"> 
- <input type="reset" name="BTApaga" value="Apagar"> </p> 
- </form>
- 
-</html> 
-			</p>
-		</article>
-	</section> 
-	<header>
-		<h1>Home Page Adriana AP. Castro Andadre Deperon</h1>
-		<nav>
-			<ul>
-				<li id="link-home"><a href="#home">Home</a></li>
-        <nav id="menu">
-    <ul>
-    </ul>
-</nav>
-<html  xml:lang="pt" lang="pt">
- 
+<html>
 <head>
-	<title>Menu Horizontal</title>
-	<style type="text/css">
-	<!--
-		body {
-			padding:0px;
-			margin:0px;
-		}
- 
-		#menu ul {
-			padding:0px;
-			margin:0px;
-			float: left;
-			width: 100%;
-			background-color:#EDEDED;
-			list-style:none;
-			font:80% Tahoma;
-		}
- 
-		#menu ul li { display: inline; }
- 
-		#menu ul li a {
-			background-color:#EDEDED;
-			color: #333;
-			text-decoration: none;
-			border-bottom:3px solid #EDEDED;
-			padding: 2px 10px;
-			float:left;
-		}
- 
-		#menu ul li a:hover {
-			background-color:#D6D6D6;
-			color: #6D6D6D;
-			border-bottom:3px solid #EA0000;
-		}
-	-->
-	</style>
+    <title>Páginas responsivas - Tutorial Linha de Código</title>
 </head>
- 
 <body>
-	<div id="menu">
-		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">Sobre</a></li>
-			<li><a href="">Artigos</a></li>
-			<li><a href="">Estudos</a></li>
-			<li><a href="">Diretório</a></li>
-			<li><a href="">CURSO</a></li>
-			<li><a href="">Links</a></li>
-			<li><a href="">Contato</a></li>
-		</ul>
-	</div>
-  <img https://inscricaoficr.catolica.edu.br/hubfs/Imported_Blog_Media/direito-4.jpg>
+    <div class=”container”>
+        <div class="one-third column">
+        </div>
+            <div class="one-third column">
+            </div>
+                <div class="one-third column">
+                </div>
+    </div>
+    1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+<html>
+<head>
+    <title>Páginas responsivas - Tutorial Linha de Código</title>
+    <style type="text/css">
+    <script src="javascripts/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        var largura = $(window).width(); /* Capturando a do cliente */
+        if (largura <= 921) {
+        /* Se a Largura do monitor for menor ou = que 921 px */
+        $("#hire").hide(); /* Esconde a bandeira azul*/
+        $("#resize").hide(); /* Esconde "triangulo" resize no canto inferior direito*/
+        }
+        else if (tam >= 922) {
+        /* Se não for a condição a cima e for marior ou = a 922 px */
+        $("#hire").show(); /* Mostra a bandeira azul*/
+        $("#resize").show(); /* Mostra "triangulo" resize no canto inferior direito*/
+        }
+});
+</script>
+ 
+</style>
+</head>
+<body>
+    <div class=”container”>
+        <div class="one-third column">
+        </div>
+            <div class="one-third column">
+            </div>
+                <div class="one-third column">
+                </div>
+    </div>
+ 
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/3628/como-criar-paginas-responsivas-para-varios-dispositivos.aspx#ixzz6ubtcTnCv
+html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design Resopnsivo com HTML5 & CSS3</title>
+    <link rel="stylesheet" href="style/css/estilos.css">
+</head>
+
+<body>
+    <header class="masthead" role="banner">
+        <div class="logo">Advogada Adriana AP. de Castro Andrade Deperon</div>
+        <div class="search" role="search">
+            <form>
+                <label>Consultar:
+                    <input type="text" class="field">
+                    <button>Aplique Agora!</button>
+                    <h1>Entre em contato</h1>
+
+  <input type="text" id="nomeid" placeholder="cliente" required="required" name="nome" />
+  <label for="nome">Nome</label>
+
+  <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+  <label for="fone">Fone</label>
+
+  <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+  <label for="email">Email</label>
+
+  <textarea placeholder="Deixe sua opnião"></textarea>
+
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/COLOQUESEUNUMERO?text=Fale%20conosco" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+  <title>Trabalhando seu problema</title>
+<style type="text/css">
+h3 {
+border-width: medium;
+border-style: solid;
+border-color: #F1;
+    }
+p   {
+border-width: 3px;
+border-style: dashed;
+border-color: #0F11;
+    }
+</style>
+</head>
+
+<body>
+
+
+
+<h3>ADVOGADA</h3>
+<p>Venha ao Escritorio de advocacia Adriana Deperon</p>
+
+
+
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
+</form>
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="clientes.html">Clientes</a></li>
+					<li><a href="notas-fiscais.html">Notas Fiscais</a></li>
+					<li><a href="contas-receber.html">Contas a Receber</a></li>
+					<li><a href="bancos.html">Bancos</a></li>
+					<li class="active"><a href="contas-bancarias.html">Contas Bancárias</a></li>
+					<li><a href="condicoes-pagamento.html">Condições de Pagamento</a></li>
+					<li><a href="agencias.html">Agências</a></li>
+					<li><a href="funcionarios.html">Funcionários</a></li>
+          
+          
+          <fieldset class="grupo">
+            <div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+            </div>
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="">--</option>
+                    <option value="PR">PR</option>
+                </select>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.html"><i class="fa fa-sign-out"></i> Sair</a></li>
+          	<div class="panel-footer">
+						<button type="button" class="btn btn-primary">Salvar</button>
+						<a href="contas-bancarias.html" class="btn btn-default">Cancelar</a>
+            
+				</ul>
+			</div>
+		</div>
+
+                </label>
+            </form>
+        </div>
+    </header>
+
+       <!-- Restante do conteúdo -->
+<nav class="main-nav" role="navigation">
+       <ul class="nav-container">
+             <li><a href="#">https://lh3.googleusercontent.com/proxy/pbUvAIbS-o5Jwl1hdTihCGU-Kv7q2ChB5QWWJPrZBqkYrIVHmnO2zx-3xFutYgDwMAxyZd0IOGQtDPw8WmOdoAXtztFaT4JydFPxVJmDDJ90eAiUttd4ng</a></li>
+             <li><a href="#">https://www.terra.com.br/noticias/dino/principios-basicos-do-direito-civil-que-a-populacao-brasileira-deve-conhecer,424dcf87e6762c406dac4aec1e303ee7o7pozpiz.html </a></li>
+             <li><a href="#">https://jus.com.br/tudo/direito-civil</a></li>
+             <li><a href="#">https://pt.wikipedia.org/wiki/Direito_civil</a></li>
+       </ul>
+</nav>
+<main class="main-container" role="main">
+       <h1>Criando site Advocacia</h1>
+       <p>Principais tipos de advogados
+Advogado civil: O advogado civil atua defendendo os direitos civis de seus clientes. Quando o cliente se sente prejudicado de alguma forma em alguma transação, precisa formular um contrato de locação ou lidar com questões de herança, ele busca o auxílio de um advogado civil. ... São diversas as áreas em que este advogado pode atuar.
+       <article class="article-container flex-container">
+             <section class="main-content">
+                    <header>
+                           <h1>O escritorio de advocacia apresenta<code><main></code></h1>
+                    </header>
+                    <p>Por definição:</p>
+                    <blockquote>
+                           <p>O Elemento (<code><main></code>) Veja quais são áreas de atuação do Direito
+Direito Civil. Esta é uma das áreas mais amplas do Direito! ...
+Direito Ambiental. ...
+Direito Empresarial. ...
+Direito da Tecnologia da Informação. ...
+Direito Consumidor. ...
+Direito Penal. ...
+Direito Trabalhista. ...
+Direito Tributário.
+                           </p>
+                    </blockquote>
+             </section>
+             <aside class="side-content" role="complementary">
+                    <h2>Quer se tornar um advogado?</h2>
+                    <p>Provavelmente você terá um longo caminho, mas pode fazer uso do nosso conteúdo para te ajudar.</p>
+             </aside>
+       </article>
+       <div class="contact-form" role="form">
+             <header>
+                    <h2>Mande-nos sua sugestão/dúvida/questão</h2>
+             </header>
+             <form>
+                    <div class="flex-container">
+                           <label class="label-col">Nome:
+                                  <input type="text" class="field name" id="nome" required>
+                           </label>
+                           <label class="label-col">Email:
+                                  <input type="email" class="field email" id="email" required>
+                           </label>
+                    </div>
+                    <label for="comentario">Comentário:</label>
+
+                    <textarea class="comments" id="comentario" cols="50" required></textarea>
+                    <button>Enviar</button>
+             </form>
+       </div>
+       <footer class="main-footer" role="contentinfo">
+             <p>Copyright © 2015 | Todos os direitos reservados. </p>
+             <ul class="nav-container" role="navigation">
+                    <li><a href="#">Rodapé Link https://jusbrasil.jusbrasil.com.br/artigos/697150794/compilado-modelos-e-pecas-direito-processual-civil-pecas-genericas 1</a></li>
+                    <li><a href="#">Rodapé Link https://examedeordem.jusbrasil.com.br/noticias/517376001/como-elaborar-peca-pratica-de-direito-penal 2</a></li>
+                    <li><a href="#">Rodapé Link https://jusbrasil.jusbrasil.com.br/artigos/685327799/compilado-modelos-e-pecas-direito-do-trabalho 3</a></li>
+                    <li><a href="#">Rodapé Link https://jusbrasil.jusbrasil.com.br/artigos/679478749/compilado-modelos-e-pecas-direito-de-familia 4</a></li>
+                    <li><a href="#">Rodapé Link https://www.jusbrasil.com.br/modelos-pecas/busca?q=Estatuto+da+Crian%C3%A7a+e+do+Adolescente 5</a></li>
+             </ul>
+       </footer>
+</main>
+
+ 
