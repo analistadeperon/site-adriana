@@ -1,3 +1,5 @@
+<div id="app"></div>
+
 # site-adriana
 
 <div id="app"></div>
@@ -188,3 +190,106 @@ Embora o curso de Direito seja um dos mais buscados entre os universitários, o 
 		</ul>
 	</div>
   <img https://inscricaoficr.catolica.edu.br/hubfs/Imported_Blog_Media/direito-4.jpg>
+<div class="row">
+  <div class="card col-12 padd-left0 padd-right0">
+    <div class="card">
+      <div class="card-block" style="display: inline;">
+        <form novalidate (ngSubmit)="adicionarSolicitacaoPagamento()" [formGroup]="conciliacaoBancariaForm">
+
+          <br />
+
+          <div class="row second-group">
+
+            <!-- <fieldset>
+              <legend> Filtro por data</legend> -->
+
+            <div class="col-md-3">
+              <div class="form-group">
+                <label>Conta Corrente </label>
+                <dx-select-box placeholder="Selecione Conta..." [items]="contasCorrente" displayExpr="descricao" valueExpr="id" [searchEnabled]="true" formControlName="contaCorrenteId">
+                </dx-select-box>
+                <span class="text-danger" *ngIf="displayMessage.contaCorrenteId">
+                    <p [innerHTML]="displayMessage.contaCorrenteId"></p>
+                  </span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="form-group">
+                <label class="control-label" for="dataEmissaoInicial">Data Emissão Inicial</label>
+                <dx-date-box type="date" width="100%" displayFormat="dd/MM/yyyy" formControlName="dataEmissaoInicial" (onValueChanged)="definirValor($event)"></dx-date-box>
+                <span class="text-danger" *ngIf="displayMessage.dataEmissaoInicial">
+                    <p [innerHTML]="displayMessage.dataEmissaoInicial"></p>
+                  </span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="form-group">
+                <label class="control-label" for="dataEmissaoFinal">Data Emissão Final</label>
+                <dx-date-box [min]="minDate" [max]="maxDate" type="date" width="100%" displayFormat="dd/MM/yyyy" formControlName="dataEmissaoFinal" (onValueChanged)="definirValor($event)"></dx-date-box>
+                <span class="text-danger" *ngIf="displayMessage.dataEmissaoFinal">
+                    <p [innerHTML]="displayMessage.dataEmissaoFinal"></p>
+                  </span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <button type="button" style="margin-top: 27px" class="btn btn-block btn-success" (click)="filtrarConciliacao()">
+                  <i class="fa fa-refresh"></i> Filtrar </button>
+            </div>
+            <!-- </fieldset> -->
+          </div>
+
+          <br />
+          <form method="POST" ação="https://secure.payzen.com.br/vads-payment/">
+	<input type="hidden" name="parametre1" value="valor1" />
+	<input type="hidden" name="parametre2" value="valor2" />
+	<input type="hidden" name="parametre3" value="valor3" />
+	<input type="hidden" name="assinatura" value="signature"/>
+	<input type="submit" name="pagar" value="Pagar"/>
+</form>
+<html>
+<head>
+  <title>Minha primeira página CSS</title>
+</head>
+
+<body>
+
+<!-- Menu de navegacao do site -->
+<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="pensamentos.html">Pensamentos</a>
+  <li><a href="cidade.html">Minha cidade</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- Conteudo -->
+<h1>Minha primeira página CSS</h1>
+
+<p>Bem vindos à minha página estilizada!
+
+<p>Minha página não contém imagens, mas pelo
+menos está estilizada.
+Ela contém links, ainda que eles não levem
+a lugar algum…
+
+<p>Deveria haver mais textos aqui porém eu
+ainda não decidi o que escrever.
+
+<!-- Date e assine sua página, isto é educado! -->
+<address>Construida em 11 de maio de 2021<br>
+  por mim mesmo.</address>
+
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu novo website</title>
+</head>
+<body>
+	<div>
+		<h1>Adriana!</h1>
+	</div>
+<img src="https://github.com/analistadeperon" alt="Exemplo de Imagem">
