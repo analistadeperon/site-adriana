@@ -1,5 +1,5 @@
 <div id="app"></div>
-
+<img src="https://projetoacademico.com.br/wp-content/uploads/2019/10/banner-direito-civil-1024x422.jpg" alt="some text" width=60 height=40>
  <html>
  	<head>
  		<meta charset="UTF-8">
@@ -274,3 +274,9 @@ Direito Tributário.
 </main>
 
  
+<img src="https://http2.mlstatic.com/D_NQ_NP_848479-MLB31203671770_062019-O.jpg" alt="some text" width=60 height=40>
+
+Adriana Deperon Advogada
+
+<img src="https://assets.minasvestibular.com.br/wp-content/uploadedfiles/uploads/2020/09/Depositphotos_41648917_s-2019.jpg" alt="some text" width=60 height=40>
+<img src="https://www.cesuca.edu.br/wp-content/uploads/2020/09/direito.jpg" alt="some text" width=60 height=40>
